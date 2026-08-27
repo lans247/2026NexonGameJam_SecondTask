@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebcd7fd140fb0f443807cc360a0a6b11, type: 3}
+  m_Name: Round4
+  m_EditorClassIdentifier: 
+  mapPrefab: {fileID: 1540967598456995529, guid: dc37b52e4af885348bb9b9cf71229ab6, type: 3}
+  roundClearMessage: "\uC774 \uAE08\uAD34\uB4E4\uC774\uBA74 \uAD73\uC774 \uC0C1\uC790\uB97C
+    \uC9C0\uD0AC \uD544\uC694\uB3C4 \uC5C6\uB294 \uAC70 \uC544\uB0D0\uD551?\n\uC544\uB2C8\uB2F4.
+    \uC6B0\uB9AC\uC758 \uC0C1\uC790\uAC00 \uB354 \uAC00\uCE58\uC788\uB2F4. \n\uC815\uB9D0\uC774\uC57C\uD551?\n...\n\uD5DB\uC18C\uB9AC\uB9D0\uACE0
+    \uC628\uB2E4, \uAC1C\uAD74. \n\uAE08\uAD34\uACE0 \uBB50\uACE0, \uC800\uB140\uC11D
+    \uC6B0\uB9AC\uB9CC \uBCF4\uACE0\uC788\uB2E4 \uAC1C\uAD74. \n\n\n\n\n"
+  waves:
+  - enemyCount: 1
+    spawnInterval: 0
+    delayBeforeWave: 5
+    enemyHp: 1000
+    enemySpeed: 2
+    enemyDamage: 1
+    isBossWave: 1
+  - enemyCount: 5
+    spawnInterval: 0
+    delayBeforeWave: 5
+    enemyHp: 20
+    enemySpeed: 12
+    enemyDamage: 3
+    isBossWave: 0
+  - enemyCount: 5
+    spawnInterval: 0
+    delayBeforeWave: 5
+    enemyHp: 20
+    enemySpeed: 12
+    enemyDamage: 3
+    isBossWave: 0
+  - enemyCount: 5
+    spawnInterval: 0
+    delayBeforeWave: 5
+    enemyHp: 20
+    enemySpeed: 12
+    enemyDamage: 3
+    isBossWave: 0
+  - enemyCount: 5
+    spawnInterval: 0
+    delayBeforeWave: 5
+    enemyHp: 20
+    enemySpeed: 12
+    enemyDamage: 3
+    isBossWave: 0
